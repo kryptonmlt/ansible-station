@@ -1,0 +1,2 @@
+#!/bin/sh
+mkdir -p /root/.ssh && cp -R /root/ssh-host/* /root/.ssh/ && chmod -R -x+X /root/.ssh/ && chmod -R 600 /root/.ssh

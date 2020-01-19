@@ -1,0 +1,1 @@
+docker exec -it ansible-station /bin/bash

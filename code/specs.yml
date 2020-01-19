@@ -1,0 +1,8 @@
+- hosts: all
+  gather_facts: False
+  tasks:
+    - name: Check Dist Version
+      shell: cat /etc/os-release | grep PRETTY_NAME
+      register: response
+
+    - debug: msg="{{ response.stdout }}"
