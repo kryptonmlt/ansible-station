@@ -1,5 +1,5 @@
 # Ansible Station
-This repo is mostly dedicated to peoply who want to run ansible easily on Windows. Docker is used so that ansible is not needed to be installed on the OS.
+This repo is mostly dedicated to people who want to run ansible easily from a Windows machine. Docker is used so that ansible is not needed to be installed on the OS.
 
 ## Build image
 * **docker build -t ansible-station .**
